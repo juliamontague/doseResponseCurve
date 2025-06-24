@@ -1,0 +1,19 @@
+Package: doseResponseCurve
+Type: Package
+Title: Simple Dose-Response Curve Function
+Version: 0.1.0
+Authors@R: 
+    person("Julia", "Montague", email = "juliamontaguemsc@gmail.com", role = c("aut", "cre"))
+Description: Provides a single function to generate dose-response curves using
+    non-linear regression and visualization tools.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    drc,
+    ggplot2,
+    dplyr,
+    plotly,
+    rlang
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
